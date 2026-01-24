@@ -1,7 +1,7 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/FelixBuchele/mesh-voronoi/main/images/mesh_voronoi_banner.png"
        alt="mesh_voronoi logo"
-       width="85%">
+       width="100%">
 </p>
 
 <p align="center">
@@ -78,11 +78,11 @@ voronoi_<mesh_name>/
 
 ### a) Complex geometry
 
-The algorithm operates directly on triangle meshes and does not assume convexgeometry.
+The algorithm operates directly on triangle meshes and does not assume convex geometry.
 
-![Example: Voronoi partition of a complex mesh]("https://raw.githubusercontent.com/FelixBuchele/mesh-voronoi/main/images/torture_toaster_voronoi.png"):
+![Example: Voronoi partition of a complex mesh](https://raw.githubusercontent.com/FelixBuchele/mesh-voronoi/main/images/torture_toaster_voronoi.png)
 
-[The Torture Toaster](https://www.printables.com/model/60985-the-torture-toaster) by Clockspring
+Example: Voronoi partition of [The Torture Toaster](https://www.printables.com/model/60985-the-torture-toaster) by Clockspring
 
 ### b) Multi-shell meshes
 
@@ -93,9 +93,9 @@ are merged.
 A single Voronoi cell may consist of multiple disconnected components if it
 intersects multiple shells.
 
-![Example: Voronoi partition of a multi-shell mesh]("https://raw.githubusercontent.com/FelixBuchele/mesh-voronoi/main/images/axolotl_voronoi.png"):
+![Example: Voronoi partition of a multi-shell mesh](https://raw.githubusercontent.com/FelixBuchele/mesh-voronoi/main/images/axolotl_voronoi.png)
 
-[Articulated Axolotl - Multicolor Remix](https://www.printables.com/model/217417-articulated-axolotl-multicolor-remix) by PrintBrothers3D
+Example: Voronoi partition of [Articulated Axolotl - Multicolor Remix](https://www.printables.com/model/217417-articulated-axolotl-multicolor-remix) by PrintBrothers3D
 
 ## Limitations
 
