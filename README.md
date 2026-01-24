@@ -80,9 +80,11 @@ voronoi_<mesh_name>/
 
 The algorithm operates directly on triangle meshes and does not assume convexgeometry.
 
-![Example: Voronoi partition of [The Torture Toaster](https://www.printables.com/model/60985-the-torture-toaster) by Clockspring]("https://raw.githubusercontent.com/FelixBuchele/mesh-voronoi/main/images/torture_toaster_voronoi.png")
+![Example: Voronoi partition of a complex mesh]("https://raw.githubusercontent.com/FelixBuchele/mesh-voronoi/main/images/torture_toaster_voronoi.png"):
 
-### c) Multi-shell meshes
+[The Torture Toaster](https://www.printables.com/model/60985-the-torture-toaster) by Clockspring
+
+### b) Multi-shell meshes
 
 Meshes containing multiple disconnected shells are handled explicitly. Each
 Voronoi cell is clipped against each shell independently, and intersecting parts
@@ -91,7 +93,9 @@ are merged.
 A single Voronoi cell may consist of multiple disconnected components if it
 intersects multiple shells.
 
-![Example: Voronoi partition of [Articulated Axolotl - Multicolor Remix](https://www.printables.com/model/217417-articulated-axolotl-multicolor-remix) by PrintBrothers3D]("https://raw.githubusercontent.com/FelixBuchele/mesh-voronoi/main/images/axolotl_voronoi.png")
+![Example: Voronoi partition of a multi-shell mesh]("https://raw.githubusercontent.com/FelixBuchele/mesh-voronoi/main/images/axolotl_voronoi.png"):
+
+[Articulated Axolotl - Multicolor Remix](https://www.printables.com/model/217417-articulated-axolotl-multicolor-remix) by PrintBrothers3D
 
 ## Limitations
 
