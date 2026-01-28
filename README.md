@@ -115,7 +115,8 @@ Example: Voronoi partition of [Articulated Axolotl - Multicolor Remix](https://w
 Computational cost increases with:
 - the number of Voronoi cells,
 - the geometric complexity of the input mesh.
-The construction scales approximately quadratically with the number of cells.
+  
+The computation time scales approximately quadratically with the number of cells.
 Boolean clipping on complex meshes can be slow.
 
 The code may fail on non-watertight or degenerate meshes. Best practice: repair your meshes (e.g. in PrusaSlicer) before using this script.
