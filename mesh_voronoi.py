@@ -413,9 +413,8 @@ def main() -> None:
     
     # Change the following two variables to create your own voronoi
     # tesselation
-    # input_mesh_path = r"C:\\FULL\\PATH\\TO\\YOUR\\STL\\FILE.stl"
-    input_mesh_path = r"C:\Users\\Felix\\Downloads\\3dbenchy.stl"
-    number_of_cells = 100
+    input_mesh_path = r"C:\\FULL\\PATH\\TO\\YOUR\\STL\\FILE.stl"
+    number_of_cells = 25
 
     # ------------------------------------------------------------------
     # Load mesh
@@ -483,4 +482,5 @@ def main() -> None:
 # Script entry point
 # -----------------------------------------------------------------------------
 if __name__ == "__main__":
+
     main()
